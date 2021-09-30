@@ -46,6 +46,12 @@ footer {
     height: 80px;
     background-color: #24272A;
     justify-content: space-between;
+    color: white;
+}
+
+.fas {
+    font-size: 40px;
+   
 }
 
 #play {
@@ -57,16 +63,30 @@ footer {
 #mute {
     height: 80px;
     width: 50%;
-    background-color: yellow;
-    border: 1px solid pink;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
+
+.fa-chevron-up {
+    align-self: end;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
 
 #stop {
     height: 80px;
     width: 50%;
-    background-color: yellow;
-    border: 1px solid pink;
-
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 
@@ -80,4 +100,15 @@ footer {
     height: 80px;
     width: calc(100% / 8);
     background-color: yellow;
+    border: 1px solid blue;
+}
+
+#end {
+    height: 80px;
+    width: 100px;
+    background-color: #4A4B4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
 }
