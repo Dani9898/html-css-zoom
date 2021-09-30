@@ -12,6 +12,7 @@ main {
     background-color: black;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .indietro .fas {
@@ -33,7 +34,6 @@ transform: rotate(180deg);
 #container {
     width: 80%;
     height: 100%;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -86,13 +86,11 @@ footer {
 }
 
 #play {
-   height: 80px; 
-   width: 200px;
+   width: 10%;
    display: flex;
 }
 
 #mute {
-    height: 80px;
     width: 50%;
     justify-content: center;
     align-items: center;
@@ -122,21 +120,19 @@ footer {
 
 
 #nav {
-    height: 80px;
-    width: 800px;
+
+    width: 45%;
     display: flex;
 }
 
 .ico {
-    height: 80px;
     width: calc(100% / 8);
     background-color: yellow;
     border: 1px solid blue;
 }
 
 #end {
-    height: 80px;
-    width: 100px;
+    width: 8%;
     background-color: #4A4B4D;
     display: flex;
     justify-content: center;
