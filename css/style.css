@@ -17,7 +17,6 @@ main {
     height: 100%;
     margin: auto;
     display: flex;
-    background-color: pink;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 40px 0;
@@ -25,7 +24,6 @@ main {
 
 .user {
     width: 19%;
-    height: 150px;
     margin: 1px 0;
     background-color: red;
     border: 1px solid black;
@@ -37,10 +35,49 @@ main {
     object-fit: cover;
 }
 
+.cambio-pagina {
+    color: white;
+}
 
 
 /* footer */
 footer {
+    display: flex;
     height: 80px;
     background-color: #24272A;
+    justify-content: space-between;
+}
+
+#play {
+   height: 80px; 
+   width: 200px;
+   display: flex;
+}
+
+#mute {
+    height: 80px;
+    width: 50%;
+    background-color: yellow;
+    border: 1px solid pink;
+}
+
+#stop {
+    height: 80px;
+    width: 50%;
+    background-color: yellow;
+    border: 1px solid pink;
+
+}
+
+
+#nav {
+    height: 80px;
+    width: 800px;
+    display: flex;
+}
+
+.ico {
+    height: 80px;
+    width: calc(100% / 8);
+    background-color: yellow;
 }
